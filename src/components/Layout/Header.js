@@ -6,7 +6,7 @@ import HeaderCartButton from './HeaderCartButton'
 const Header = props =>{
     return <>
         <header className={classes.header}>
-            <h1>React Meals</h1>
+            <h1>Meals</h1>
            <HeaderCartButton showCartHandler={props.showCartHandler} />
         </header>
         <div className={classes['main-image']}>
